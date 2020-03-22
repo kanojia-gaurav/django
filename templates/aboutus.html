@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Heart Disease Prediction</title>
+  </head>
+  {% load static %}
+  <body class="text-white" style="background-color: 	#181818;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="{% url 'dataset' %}">HOME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  
+    <div class="container">
+      <!-- images start -->
+      <!-- <div class="contain" style="background-size: 100% 50%; width: 100%; height: 700px">
+        <img src="images/contactus.jpg">
+      </div>
+      <br> -->
+      <!-- images ends -->
+      <div class="display-3 my-2 text-center">About Us</div>
+      </div>
+      
+      <div class="container">
+          <ul>
+              <li>
+                <h5>Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels.CVD includes coronary artery diseases (CAD) such as angina and myocardial infarction (commonly known as a heart attack).</h5>
+              </li>
+              <li>
+                  <h5>Coronary artery disease, stroke, and peripheral artery disease involve atherosclerosis.This may be caused by high blood pressure, smoking, diabetes mellitus, lack of exercise, obesity, high blood cholesterol, poor diet, and excessive alcohol consumption, among others.</h5>
+              </li>
+              <li><h5>High blood pressure is estimated to account for approximately 13% of CVD deaths, while tobacco accounts for 9%, diabetes 6%, lack of exercise 6% and obesity 5%.</h5></li>
+              <li><h5>It is estimated that up to 90% of CVD may be preventable. Prevention of CVD involves improving risk factors through: healthy eating, exercise, avoidance of tobacco smoke and limiting alcohol intake.Treating risk factors, such as high blood pressure, blood lipids and diabetes is also beneficial.</h5></li>
+              <li><h5>Cardiovascular diseases are the leading cause of death in all areas of the world except Africa.ogether CVD resulted in 17.9 million deaths (32.1%) in 2015, up from 12.3 million (25.8%) in 1990.</h5></li>
+              <li><h5>Due to such reason we have devloped the online heart disease predictor which wil help the people to know about their the heart disease.</h5></li>
+              <li><h5>Here we are using the Random forest algorithm using machine learning, to predict the heart disease.This is the supervised learning problem as it gives us the result in 0 and 1 i.e don't have or have. </h5></li>
+            </ul>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <!-- foot start-->
+            
+            <style>
+                .footer {
+                  position: fixed;
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                  color: white;
+                  text-align: center;
+                }
+                </style>
+                
+                <div class="footer">
+                    <!-- Copyright -->
+                    <h4>
+                        <div class="footer-copyright text-center py-3">© 2020 Copyright All Rights Reserved:
+                        <a href="{% url 'dataset' %}">heartdiseaseprediction.com</a>
+                        </div>
+                        </h4>
+                    <!-- Copyright -->
+                </div>
+      
+      <!-- foot ends -->
+  </body>
+</html>
